@@ -11,7 +11,7 @@ import googleapiclient.errors
 scopes = ["https://www.googleapis.com/auth/youtube.readonly"]
 api_service_name = "youtube"
 api_version = "v3"
-client_secrets_file = "client_secret_764142200770-mip0dtcp85bdj2i0ne7b4nd2e6bodhnh.apps.googleusercontent.com.json"
+client_secrets_file = "[YOUR_CLIENT_SECRETS_FILE_HERE]"
 
 def main():
     # Disable OAuthlib's HTTPS verification when running locally.
